@@ -1,0 +1,33 @@
+.hero {
+  margin-top: 118px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.star {
+  top: 98px;
+  left: 280px;
+}
+.title {
+  z-index: 100;
+}
+
+@media (max-width: 768px) {
+  .star {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .hero {
+    margin-top: -150px;
+  }
+}
+
+@font-face {
+  font-family: "Epilogue-Bold";
+  src: url("./assets//fonts//Epilogue/static/Epilogue-Bold.ttf");
+}
+@font-face {
+  font-family: "Epilogue-Regular";
+  src: url("./assets//fonts//Epilogue/static/Epilogue-Regular.ttf");
+}
